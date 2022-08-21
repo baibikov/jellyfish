@@ -1,0 +1,15 @@
+syntax = "proto3";
+package messages;
+option go_package = "protogenerated/messages";
+
+message Ping {
+  int32 ping = 1;
+}
+
+message Pong {
+  bool pong = 1;
+}
+
+message ErrorFormat {
+  string Message = 1;
+}

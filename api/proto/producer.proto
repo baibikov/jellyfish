@@ -1,0 +1,11 @@
+syntax = "proto3";
+option go_package = "protogenerated/messages";
+
+message ProducerPayload {
+  string topic = 1;
+  bytes message = 2;
+}
+
+message ProducerAsk {
+  bool ask = 1;
+}

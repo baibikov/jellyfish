@@ -1,0 +1,13 @@
+syntax = "proto3";
+package generated;
+
+option go_package = "protogenerated/messages";
+
+message ConsumerPayload {
+  string topic = 1;
+}
+
+message ConsumerResponse {
+  bool isEmpty = 1;
+  bytes message = 2;
+}
