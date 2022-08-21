@@ -1,4 +1,8 @@
 # Jellyfish in-memory broker message.
+[![PkgGoDev](https://img.shields.io/badge/go.dev-docs-007d9c?style=flat-square&logo=go&logoColor=white)](https://pkg.go.dev/github.com/baibikov/jellyfish)
+[![GitHub release](https://img.shields.io/github/release/baibikov/jellyfish.svg?style=flat-square)](https://https://github.com/baibikov/jellyfish/releases/latest)
+[![Go Report Card](https://goreportcard.com/badge/github.com/baibikov/jellyfish)](https://goreportcard.com/report/github.com/baibikov/jellyfish)
+
 ![Jellyfish](logo.png?raw=true "Jellyfish Logo")
 
 ### Philosophy:
@@ -31,7 +35,19 @@ cat configs/broker.yaml.template >> configs/broker.yaml
 #### Start broker:
 
 ```bach
-go run cmd/broker.go
+go run cmd/broker/main.go
+```
+
+or:
+
+```bach
+make run-broker
+```
+
+build:
+
+```bach
+make build-broker
 ```
 
 A Config by once file looks like this:
