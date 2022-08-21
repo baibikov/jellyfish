@@ -20,7 +20,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"google.golang.org/protobuf/proto"
 
-	"jellifish/protogenerated/messages"
+	"jellyfish/protogenerated/messages"
 )
 
 func (h *Handler) producerDo(ctx context.Context) {

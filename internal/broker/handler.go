@@ -23,8 +23,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"google.golang.org/protobuf/proto"
 
-	pinger "jellifish/pkg/ping"
-	"jellifish/protogenerated/messages"
+	pinger "jellyfish/pkg/ping"
+	"jellyfish/protogenerated/messages"
 )
 
 type Handler struct {

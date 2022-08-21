@@ -19,8 +19,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"jellifish/pkg/conn"
-	"jellifish/protogenerated/messages"
+	"jellyfish/pkg/conn"
+	"jellyfish/protogenerated/messages"
 )
 
 func (h *Handler) partitionDo(ctx context.Context) {

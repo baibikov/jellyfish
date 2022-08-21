@@ -8,9 +8,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"jellifish/pkg/conn"
-	"jellifish/pkg/ping"
-	"jellifish/protogenerated/messages"
+	"jellyfish/pkg/conn"
+	"jellyfish/pkg/ping"
+	"jellyfish/protogenerated/messages"
 )
 
 type Consumer struct {

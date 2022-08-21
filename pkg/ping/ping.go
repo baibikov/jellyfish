@@ -7,7 +7,7 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 
-	"jellifish/protogenerated/messages"
+	"jellyfish/protogenerated/messages"
 )
 
 type Ping struct {

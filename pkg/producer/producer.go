@@ -8,9 +8,9 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 
-	"jellifish/internal/pkg/timeoutgroup"
-	"jellifish/pkg/ping"
-	"jellifish/protogenerated/messages"
+	"jellyfish/internal/pkg/timeoutgroup"
+	"jellyfish/pkg/ping"
+	"jellyfish/protogenerated/messages"
 )
 
 type Config struct {

@@ -1,4 +1,4 @@
-module jellifish
+module jellyfish
 
 go 1.19
 
