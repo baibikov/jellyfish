@@ -21,10 +21,10 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/multierr"
 
-	"jellyfish/internal/pkg/timeoutgroup"
-	"jellyfish/pkg/conn"
-	"jellyfish/pkg/ping"
-	"jellyfish/protogenerated/messages"
+	"github.com/baibikov/jellyfish/internal/pkg/timeoutgroup"
+	"github.com/baibikov/jellyfish/pkg/conn"
+	"github.com/baibikov/jellyfish/pkg/ping"
+	"github.com/baibikov/jellyfish/protogenerated/messages"
 )
 
 // simple ISR message writing implement

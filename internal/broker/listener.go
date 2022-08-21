@@ -20,7 +20,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"jellyfish/internal/config"
+	"github.com/baibikov/jellyfish/internal/config"
 )
 
 type Listener struct {

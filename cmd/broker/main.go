@@ -24,8 +24,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"go.uber.org/multierr"
 
-	"jellyfish/internal/broker"
-	"jellyfish/internal/config"
+	"github.com/baibikov/jellyfish/internal/broker"
+	"github.com/baibikov/jellyfish/internal/config"
 )
 
 func init() {

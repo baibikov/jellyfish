@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"jellyfish/pkg/consumer"
-	"jellyfish/pkg/producer"
+	"github.com/baibikov/jellyfish/pkg/consumer"
+	"github.com/baibikov/jellyfish/pkg/producer"
 )
 
 func main() {

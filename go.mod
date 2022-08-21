@@ -1,4 +1,4 @@
-module jellyfish
+module github.com/baibikov/jellyfish
 
 go 1.19
 
